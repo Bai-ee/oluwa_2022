@@ -573,6 +573,9 @@ console.log(objkt)
 
             downloadButton.style.display = 'block';
             purchaseElement.style.display = 'none';
+            downloadButton.onclick = function () {
+                render();
+            }
             
             }
         })

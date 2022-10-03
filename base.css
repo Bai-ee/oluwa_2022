@@ -31,7 +31,7 @@
     /*COLORS*/
     --primary: black;
     --secondary: rgb(0, 0, 0);
-    --progress-color:  #E5660B;
+    --progress-color:  #000;
 
     /*STAGE BACKGROUND*/ 
     --img-bg: url("bg.png");
@@ -65,7 +65,7 @@
     --img-direx-bg-small: url('directions_small.png');
 
     /*LOOPS*/
-    --bg-box: #FA5805;
+    --bg-box: #000;
 
     --active-border: transparent; /* sets color of the loops-border which is playing */
     --boxes_cont_bg: black;
@@ -97,13 +97,13 @@
 
     /*SLIDER*/
     --bg-slider: #232429;
-    --slider: #FA5805;
+    --slider: #000;
     --slider-size: 17px;
 
     /*PLAY BUTTONS*/
     --btn-hover: #dfdbdb;
     --txt: grey;
-    --txt-box: #622A00;
+    --txt-box: #000;
 
     /*MARQUEE*/
 
@@ -131,10 +131,10 @@
     --secondary: #555;
     --progress-color: #E5660B;
     --bg-card: #2324298f;
-    --bg-master: #FA5805;
+    --bg-master: #000;
     --bg-btn-updown: #33373C;
     --bg-slider: rgb(63, 63, 63);
-    --slider: #AC3434;
+    --slider: #000;
     --btn-hover: #6e6e6e;
     --txt: grey;
     --txt-box: white;
