@@ -524,14 +524,6 @@ setInterval(() => {
 
 function validateToken(viewer, objkt){
 
-console.log("///////ABOUT:")
-console.log("• EditTrax.NFT: Open source interactive music collectible with token gate and direct download mechanism.")
-
-console.log("////////RIGHTS:")
-console.log("• Original artist retains all creative rights to downloaded material.")
-console.log("• Collectors are fully encouraged to use .wav file in mix tapes, social content and public performances.")
-console.log("• Collectors are not allowed to distribute or repackage for direct sale or distribution in any way.")
-console.log("• Collector will assume no other rights.")
 
     const url = 'https://api.tzkt.io/v1/bigmaps/511/keys?key.address=' + viewer + '&key.nat=' + objkt + '&select=value';
     axios.get(url)
@@ -568,14 +560,8 @@ console.log(objkt)
             console.log("• Owner Not Verified: Collect to Unlock Downloads")
             console.log("COLLECT TO DOWNLOAD")
 
-            // downloadButton.style.display = 'none';
-            // purchaseElement.style.display = 'block';
-
-            downloadButton.style.display = 'block';
-            purchaseElement.style.display = 'none';
-            downloadButton.onclick = function () {
-                render();
-            }
+            downloadButton.style.display = 'none';
+            purchaseElement.style.display = 'block';
             
             }
         })
